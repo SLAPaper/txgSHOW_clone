@@ -1,0 +1,24 @@
+﻿生成启动时间为 2015/2/11 15:06:42。
+     1>项目“C:\Users\SQY\Documents\Visual Studio 2015\Projects\txgShow\txgShow\txgShow.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\txgShow.pch" /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt txgShow.cpp
+         txgShow.cpp
+     1>txgShow.cpp(27): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>txgShow.cpp(27): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>txgShow.cpp(36): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>txgShow.cpp(39): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>txgShow.cpp(40): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>txgShow.cpp(61): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+     1>txgShow.cpp(69): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\SQY\Documents\Visual Studio 2015\Projects\txgShow\Release\txgShow.exe" /INCREMENTAL:NO /NOLOGO glut.lib OpenGL32.lib glut32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\SQY\Documents\Visual Studio 2015\Projects\txgShow\Release\txgShow.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\SQY\Documents\Visual Studio 2015\Projects\txgShow\Release\txgShow.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         Release\txgShow.obj
+         正在生成代码
+         已完成代码的生成
+     1>LINK : warning LNK4039: 用 /SECTION 选项指定的节“shareddata”不存在
+         txgShow.vcxproj -> C:\Users\SQY\Documents\Visual Studio 2015\Projects\txgShow\Release\txgShow.exe
+     1>已完成生成项目“C:\Users\SQY\Documents\Visual Studio 2015\Projects\txgShow\txgShow\txgShow.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.08
